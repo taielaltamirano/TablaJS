@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+
+#contenido{
+	padding: 15px;
+	background: black;
+	height: 75vh;
+	width: 50vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+}
+
+th,td{
+	border: 2px solid white;
+	font-size: 2rem;
+}
+
+thead th:nth-child(odd){
+	width: 70%;
+	color: white;
+	background: black;
+}
+
+thead th:nth-child(even){
+	width: 30%;
+	color: white;
+	background: black;
+}
+
+tbody tr:nth-child(odd){
+	background-color:red;
+}
+
+tbody tr:nth-child(even){
+	background-color:yellow;
+}
+
+tfoot tr:nth-child(odd){
+	background-color:blue;
+}
+
+label{
+	font-size: 1.5rem;
+	color: black;
+}
+.bt{
+	background: red;
+}
